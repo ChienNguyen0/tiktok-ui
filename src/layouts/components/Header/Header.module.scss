@@ -1,0 +1,84 @@
+.wrapper {
+    --search-border-radius: 9.2rem;
+    --search-height: 4.6rem;
+    --search-top-spacer: 0.9rem;
+    --search-button-width: 5.2rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: var(--default-layout-header-height);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    background-color: var(--white);
+}
+
+.inner {
+    display: flex;
+    height: 100%;
+    width: var(--default-layout-width);
+    // background: #000;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    display: flex;
+}
+
+// actions
+.actions {
+    display: flex;
+    // align-items: center;
+    height: 3.6rem;
+}
+
+.upload {
+    margin-right: 0.8rem;
+    margin-left: 0;
+}
+
+.action-upload {
+    margin-right: 0.8rem;
+}
+
+.action-btn {
+    background-color: transparent;
+    font-size: 2.2rem;
+    color: rgba(22, 24, 35, 1);
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.action-btn:nth-child(2) {
+    margin-left: 1.2rem;
+    font-size: 2rem;
+}
+
+.action-btn:nth-child(3) {
+    margin-right: 1.6rem;
+}
+
+.btn-more {
+    font-size: 2rem;
+    margin-left: 24px;
+    background-color: transparent;
+    padding: 8px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.user-avatar {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}

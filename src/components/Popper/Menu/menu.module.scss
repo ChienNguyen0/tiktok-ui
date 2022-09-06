@@ -1,0 +1,35 @@
+// menu wrapper
+.menu-list {
+    width: 22.4rem;
+}
+
+.menu-popper {
+    padding-bottom: 8px;
+}
+
+.menu-body {
+    overflow-y: overlay;
+}
+
+// Header
+.header {
+    flex-shrink: 0;
+    position: relative;
+    height: 50px;
+    margin-top: -8px;
+}
+
+.btn-back {
+    height: 100%;
+    width: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
